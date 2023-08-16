@@ -1,0 +1,104 @@
+ main {
+     .section {
+         &.learning-listing {
+             .content-container {
+                 @include sectionColor(learningListing);
+                 padding: abs($number: 5rem) abs($number: $null);
+
+                 h5 {
+                     color: #fff200;
+                     font-size: abs($number: 40px);
+                     text-align: center;
+                     font-family: $ifc;
+
+                     background-image: url(../images/images/heading-seprator.png);
+                     background-repeat: repeat-x;
+                     background-position: left bottom;
+                     padding-bottom: abs($number: 20px);
+                 }
+
+                 .card {
+                     background-color: transparent;
+
+                 }
+             }
+
+             .learning-content {
+                 text-align: center;
+                 margin-bottom: abs($number: 50px);
+                 background-image: url(../images/learning-bg.png);
+                 background-repeat: no-repeat;
+                 padding: abs($number: 7.4rem);
+                 height: abs($number: 440px);
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+                 transition: all abs($number: .3s) ease-in-out;
+                 background-size: abs($number: 100%);
+                 background-position: center;
+
+                 &:hover {
+                     transform: translate(-10px, -10px);
+                 }
+
+                 @media #{$xl} {
+                     height: abs($number: 355px);
+                     background-size: contain;
+                     padding: abs($number: 4.4rem);
+                 }
+
+                 @media #{$lg} {
+                     height: abs($number: 345px);
+                     padding: abs($number: 4.4rem);
+                 }
+
+                 @media #{$md} {
+                     height: abs($number: 270px);
+                     padding: abs($number: 4.4rem);
+                     margin-bottom: abs($number: 20px);
+                 }
+
+                 @media #{$xs} {
+                     background-position: center;
+                 }
+
+                 a {
+                     text-decoration: none;
+                     transition: all abs($number: .3s) ease-in-out;
+                     @include fullwidth();
+
+                     @media #{$xs} {
+                         max-width: abs($number: 110px);
+                     }
+
+                     h4 {
+                         font-size: abs($number: 32px);
+                         color: #700843;
+                         margin-top: abs($number: 15px);
+                         font-family: $ifc;
+
+                         @media #{$xl} {
+                             font-size: abs($number: 27px);
+                         }
+
+                         @media #{$md} {
+                             font-size: abs($number: 18px);
+                         }
+
+                         @media #{$sm} {
+                             font-size: abs($number: 22px);
+                         }
+                     }
+                 }
+             }
+
+             .reading-section {
+                 a {
+                     img {
+                         border: solid abs($number: 10px) $white;
+                     }
+                 }
+             }
+         }
+     }
+ }

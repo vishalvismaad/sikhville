@@ -1,0 +1,3400 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* line 492, ../sass/_mixins.scss */
+.content-container {
+  float: left;
+  width: 100%;
+}
+
+/* line 1, ../sass/_common.scss */
+html {
+  height: auto !important;
+}
+
+/* line 5, ../sass/_common.scss */
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-image: url(../images/header-bg.jpg);
+  background-repeat: repeat-x;
+  background-position: left top;
+}
+
+/* line 14, ../sass/_common.scss */
+.outer-container {
+  overflow: hidden;
+  float: left;
+  width: 100%;
+}
+
+/* line 20, ../sass/_common.scss */
+a:focus {
+  outline: none;
+  box-shadow: 0 0 0 !important;
+}
+
+@media only screen and (max-width: 1399.98px) {
+  /* line 26, ../sass/_common.scss */
+  .container {
+    max-width: 94%;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 26, ../sass/_common.scss */
+  .container {
+    max-width: 94%;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  /* line 26, ../sass/_common.scss */
+  .container {
+    max-width: 92%;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  /* line 26, ../sass/_common.scss */
+  .container {
+    max-width: 1400px;
+  }
+}
+
+/* line 45, ../sass/_common.scss */
+.pdl-button {
+  color: #fff;
+  border-color: #fac005;
+  background-color: #fac005;
+  font-size: 14px;
+  padding: 0 36px;
+  height: 46px;
+  line-height: 46px;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: .5px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+/* line 62, ../sass/_common.scss */
+.pdl-button.white-button {
+  background-color: #fff;
+  color: #fac005;
+  border-color: #fff;
+}
+/* line 67, ../sass/_common.scss */
+.pdl-button.white-button:hover {
+  color: #fff;
+  border-color: #fac005;
+  background-color: #fac005;
+}
+/* line 74, ../sass/_common.scss */
+.pdl-button:hover {
+  transform: translateY(-5px);
+  color: #fff;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1399.98px) {
+  /* line 83, ../sass/_common.scss */
+  .section-heading {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1199.98px) {
+  /* line 83, ../sass/_common.scss */
+  .section-heading {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 83, ../sass/_common.scss */
+  .section-heading {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 83, ../sass/_common.scss */
+  .section-heading {
+    text-align: center;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 83, ../sass/_common.scss */
+  .section-heading {
+    font-size: 18px;
+  }
+}
+/* line 408, ../sass/_mixins.scss */
+.section-heading ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  float: right;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 408, ../sass/_mixins.scss */
+  .section-heading ul {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+}
+/* line 421, ../sass/_mixins.scss */
+.section-heading ul li {
+  float: left;
+  transition: background-color .1s ease-in-out;
+  text-transform: capitalize;
+}
+/* line 426, ../sass/_mixins.scss */
+.section-heading ul li a {
+  font-size: 15px;
+  letter-spacing: 0;
+  color: rgba(81, 81, 81, 0.62);
+  padding: 8px 15px;
+  float: left;
+  transition: background-color .1s ease-in-out;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+@media only screen and (max-width: 1399.98px) {
+  /* line 426, ../sass/_mixins.scss */
+  .section-heading ul li a {
+    padding: 4px 15px;
+  }
+}
+/* line 440, ../sass/_mixins.scss */
+.section-heading ul li a.active {
+  background: #d3095b;
+  color: #fff;
+}
+/* line 446, ../sass/_mixins.scss */
+.section-heading ul li:hover {
+  background: #fac005;
+}
+/* line 449, ../sass/_mixins.scss */
+.section-heading ul li:hover a {
+  background: #d3095b;
+  color: #fff;
+}
+
+/* line 87, ../sass/_common.scss */
+.section {
+  float: left;
+  width: 100%;
+  background: url(../images/section-pattern.jpg);
+  background-repeat: repeat-x;
+  background-position: left top;
+  padding-top: 83px;
+}
+
+/* line 94, ../sass/_common.scss */
+.slick-slider button {
+  background-position: left top;
+  background-repeat: no-repeat;
+  width: 33px;
+  height: 33px;
+  border: 0;
+  background-color: transparent;
+  text-indent: -999;
+  font-size: 0;
+  position: absolute;
+  top: -40px;
+  right: 15px;
+  transform: translate(0, -50%);
+  z-index: 10;
+}
+/* line 114, ../sass/_common.scss */
+.slick-slider button.slick-prev {
+  float: left;
+  background-image: url(../images/prev.png);
+  right: 50px;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 114, ../sass/_common.scss */
+  .slick-slider button.slick-prev {
+    right: 0;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  /* line 114, ../sass/_common.scss */
+  .slick-slider button.slick-prev {
+    left: 0;
+  }
+}
+/* line 128, ../sass/_common.scss */
+.slick-slider button.slick-next {
+  float: right;
+  background-image: url(../images/next.png);
+  right: 0px;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 128, ../sass/_common.scss */
+  .slick-slider button.slick-next {
+    right: 0px;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  /* line 128, ../sass/_common.scss */
+  .slick-slider button.slick-next {
+    right: 0;
+  }
+}
+
+/* line 144, ../sass/_common.scss */
+.card {
+  transition: transform .3s ease-in-out;
+}
+
+/* line 148, ../sass/_common.scss */
+.custom-select {
+  background-image: url(../images/selec-drop-down-icon.svg);
+  background-size: 20px 10px;
+}
+
+/* line 153, ../sass/_common.scss */
+.breadCrumb {
+  background: #F1F1F1;
+  float: left;
+  width: 100%;
+}
+/* line 745, ../sass/_mixins.scss */
+.breadCrumb .breadcrumb {
+  margin-bottom: 0;
+  padding: 0;
+  padding: 20px 0;
+  background: transparent;
+}
+/* line 751, ../sass/_mixins.scss */
+.breadCrumb .breadcrumb li {
+  font-style: 15px;
+  color: #787878;
+}
+/* line 755, ../sass/_mixins.scss */
+.breadCrumb .breadcrumb li a {
+  font-style: 15px;
+  color: #787878;
+}
+
+/* line 157, ../sass/_common.scss */
+.row {
+  clear: both;
+}
+
+/* line 161, ../sass/_common.scss */
+img {
+  user-drag: none;
+  -webkit-user-drag: none;
+}
+
+/* line 168, ../sass/_common.scss */
+form label {
+  font-size: 14px;
+}
+/* line 171, ../sass/_common.scss */
+form .form-control, form select, form .custom-select, form textarea {
+  border-radius: 0;
+  border: solid 1px rgba(250, 192, 5, 0.1);
+  height: 40px;
+  font-size: 14px;
+}
+/* line 178, ../sass/_common.scss */
+form textarea.form-control {
+  height: 80px;
+  resize: none;
+}
+
+@media only screen and (max-width: 767.98px) {
+  /* line 185, ../sass/_common.scss */
+  .rating {
+    float: left;
+    width: 100%;
+  }
+}
+/* line 191, ../sass/_common.scss */
+.rating i {
+  color: #d3095b;
+  font-size: 16px;
+}
+/* line 195, ../sass/_common.scss */
+.rating i.far {
+  color: #808080;
+}
+
+/* line 201, ../sass/_common.scss */
+.paging {
+  float: left;
+  width: 100%;
+  padding: 1rem 0 1.3rem 0;
+}
+/* line 892, ../sass/_mixins.scss */
+.paging .pagination li {
+  font-size: 14px;
+  color: #4A4A4A;
+}
+/* line 898, ../sass/_mixins.scss */
+.paging .pagination li.prev a, .paging .pagination li.next a {
+  border: 0;
+}
+/* line 903, ../sass/_mixins.scss */
+.paging .pagination li a {
+  border-radius: 0;
+  margin: 0 5px;
+  border: solid 1px #707070;
+  font-size: 14px;
+  color: #4A4A4A;
+}
+/* line 912, ../sass/_mixins.scss */
+.paging .pagination li:hover a {
+  background: #d3095b;
+  border-color: #d3095b;
+  color: #fff;
+}
+
+/* line 209, ../sass/_common.scss */
+.left-menu ul.nav li a {
+  display: block;
+  padding: 0.8rem 1rem .8rem 0;
+  color: rgba(0, 0, 0, 0.6);
+  position: relative;
+  border-bottom: dashed 1px rgba(0, 0, 0, 0.4);
+  text-transform: capitalize;
+  text-decoration: none;
+}
+/* line 217, ../sass/_common.scss */
+.left-menu ul.nav li a:before {
+  width: 0%;
+  height: 2px;
+  background-color: #d3095b;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  content: '';
+  transition: all .3s ease-in-out;
+}
+/* line 231, ../sass/_common.scss */
+.left-menu ul.nav li:hover a:before {
+  width: 100%;
+}
+/* line 237, ../sass/_common.scss */
+.left-menu ul.nav li.active a {
+  border-bottom: dashed 1px rgba(0, 0, 0, 0.4);
+  padding-left: 15px;
+}
+/* line 240, ../sass/_common.scss */
+.left-menu ul.nav li.active a:before {
+  width: 4px;
+  height: 23px;
+  background-color: #FF9933;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  content: '';
+  transition: all .3s ease-in-out;
+  transform: translateY(-50%);
+}
+
+/* Profile sidebar */
+/* line 261, ../sass/_common.scss */
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  background: #fff;
+  text-align: center;
+}
+/* line 265, ../sass/_common.scss */
+.profile-sidebar .profile-userpic {
+  position: relative;
+}
+/* line 268, ../sass/_common.scss */
+.profile-sidebar .profile-userpic .edit-profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  content: '';
+  color: #fff;
+  line-height: 150px;
+  display: none;
+}
+/* line 284, ../sass/_common.scss */
+.profile-sidebar .profile-userpic:hover .edit-profile {
+  display: block;
+}
+/* line 289, ../sass/_common.scss */
+.profile-sidebar .profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+/* line 302, ../sass/_common.scss */
+.profile-sidebar .profile-usertitle {
+  text-align: center;
+  margin-top: 10px;
+}
+/* line 306, ../sass/_common.scss */
+.profile-sidebar .profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+  position: relative;
+}
+/* line 314, ../sass/_common.scss */
+.profile-sidebar .profile-usertitle-job {
+  text-transform: uppercase;
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* line 330, ../sass/_common.scss */
+#lahori-zeera-bottle, #lahori-nimbu-bottle, #lahori-kachaaam-bottle, #lahori-shikanji-bottle {
+  position: absolute;
+  left: 50%;
+  top: 54%;
+  transform: translate(-50%, -50%);
+  height: 70%;
+}
+
+/* line 337, ../sass/_common.scss */
+.lahori-bottle {
+  height: 100vh;
+  width: 100%;
+  /* position: sticky; */
+  position: absolute;
+  top: 0;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 337, ../sass/_common.scss */
+  .lahori-bottle {
+    display: none;
+  }
+}
+
+/* line 350, ../sass/_common.scss */
+.lahori-bottle.move {
+  /* margin-top: -100vh; */
+  position: fixed;
+}
+
+/* line 354, ../sass/_common.scss */
+.lahori-bottle {
+  height: calc(70vh + 70px);
+  width: 250px;
+  position: absolute;
+  top: 20vh;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 35px 0;
+}
+
+/* line 364, ../sass/_common.scss */
+.section {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+/* line 369, ../sass/_common.scss */
+.bottle-area-section {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 374, ../sass/_common.scss */
+.lahori-zeera-sec {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+/* line 380, ../sass/_common.scss */
+.section .content-container .content .ppoimag,
+.section .content-container .content .col-md-2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 1;
+  POSITION: absolute;
+  top: 0;
+  left: calc(50% - 100px);
+  height: 100%;
+  height: 100%;
+  display: none;
+}
+
+/* line 396, ../sass/_common.scss */
+.dnone {
+  display: none;
+  transition: all .2s ease-in-out;
+}
+
+/* line 401, ../sass/_common.scss */
+.dblock {
+  display: inline-block;
+  transition: all .2s ease-in-out;
+}
+
+/* line 406, ../sass/_common.scss */
+.lahori-bottle img {
+  transition: all .5s ease-in-out;
+  max-width: 100%;
+}
+
+/* line 410, ../sass/_common.scss */
+.section.support {
+  z-index: -1;
+}
+
+/* line 413, ../sass/_common.scss */
+.lahori-bottle.moved.move {
+  position: absolute !important;
+  top: auto;
+  height: 50vh;
+  bottom: 0;
+}
+
+/* line 419, ../sass/_common.scss */
+.section.companyInfo {
+  z-index: 1;
+}
+
+/* line 421, ../sass/_common.scss */
+.section img {
+  max-width: 100%;
+}
+
+/* line 1, ../sass/partials/_header.scss */
+header {
+  float: left;
+  width: 100%;
+  margin-top: 60px;
+  background-image: url(../images/header-pattern.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-bottom: 39px;
+}
+/* line 10, ../sass/partials/_header.scss */
+header .navbar-brand {
+  padding: 0;
+}
+/* line 17, ../sass/partials/_header.scss */
+header nav ul li {
+  background-image: url(../images/nav-left.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  float: left;
+  margin-left: 8px;
+}
+/* line 24, ../sass/partials/_header.scss */
+header nav ul li a {
+  padding: 6px 35px;
+  background-image: url(../images/nav-right.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  float: left;
+  text-decoration: none;
+  font-family: "Roboto Condensed Bold";
+  color: #ec1165;
+  font-size: 25px;
+}
+/* line 34, ../sass/partials/_header.scss */
+header nav ul li a:hover {
+  text-decoration: none;
+}
+/* line 41, ../sass/partials/_header.scss */
+header nav ul li.active a, header nav ul li:hover a {
+  text-decoration: none;
+  color: #2e3192;
+}
+
+/* line 51, ../sass/partials/_header.scss */
+.main-banner {
+  float: left;
+  width: 100%;
+}
+
+/* line 2, ../sass/pages/_home.scss */
+.top-videos .content-container {
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px;
+  background-color: #fac005;
+  background-image: url(../images/top-videos-pattern.png);
+}
+/* line 503, ../sass/_mixins.scss */
+.top-videos .content-container .view-all {
+  float: left;
+  width: 100%;
+  text-align: right;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 503, ../sass/_mixins.scss */
+  .top-videos .content-container .view-all {
+    text-align: center;
+  }
+}
+/* line 511, ../sass/_mixins.scss */
+.top-videos .content-container .view-all a {
+  font-family: "Funhouse";
+  font-size: 29px;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  color: #2b3e83;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 511, ../sass/_mixins.scss */
+  .top-videos .content-container .view-all a {
+    text-align: left;
+    font-size: 20px;
+  }
+}
+/* line 522, ../sass/_mixins.scss */
+.top-videos .content-container .view-all a:before {
+  background-image: url(../images/view-all-left.png);
+  float: left;
+  width: 73px;
+  height: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+}
+@media sm {
+  /* line 522, ../sass/_mixins.scss */
+  .top-videos .content-container .view-all a:before {
+    margin-right: 10px;
+  }
+}
+/* line 562, ../sass/_mixins.scss */
+.top-videos .content-container .view-all a:after {
+  background-image: url(../images/view-all-right.png);
+  float: right;
+  margin-left: 20px;
+  width: 87px;
+  margin-top: 10px;
+  height: 20px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+}
+/* line 673, ../sass/_mixins.scss */
+.top-videos .content-container .section-heading {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 37px;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 673, ../sass/_mixins.scss */
+  .top-videos .content-container .section-heading {
+    margin-bottom: 0;
+  }
+}
+/* line 680, ../sass/_mixins.scss */
+.top-videos .content-container .section-heading span {
+  display: inline-block;
+  border-radius: 0 0 60px 60px;
+  font-family: "IFC RAILROAD Bold";
+  color: #fff;
+  font-size: 50px;
+  padding: 12px 63px;
+  background: #2b3e83;
+  color: #fac005;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 680, ../sass/_mixins.scss */
+  .top-videos .content-container .section-heading span {
+    font-size: 32px;
+    border-radius: 0 0 40px 40px;
+    padding: 8px 40px;
+  }
+}
+/* line 735, ../sass/_mixins.scss */
+.top-videos .content-container .content {
+  float: left;
+  width: 100%;
+}
+/* line 8, ../sass/pages/_home.scss */
+.top-videos .content-container .content a:hover img {
+  transform: translate(0px, -10px) scale(1.02);
+}
+/* line 13, ../sass/pages/_home.scss */
+.top-videos .content-container .content a img {
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 23, ../sass/pages/_home.scss */
+.worksheets .content-container {
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px;
+  background-color: #7436fd;
+  background-image: url(../images/worksheet-pattern.png);
+}
+/* line 503, ../sass/_mixins.scss */
+.worksheets .content-container .view-all {
+  float: left;
+  width: 100%;
+  text-align: right;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 503, ../sass/_mixins.scss */
+  .worksheets .content-container .view-all {
+    text-align: center;
+  }
+}
+/* line 511, ../sass/_mixins.scss */
+.worksheets .content-container .view-all a {
+  font-family: "Funhouse";
+  font-size: 29px;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  color: #fff;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 511, ../sass/_mixins.scss */
+  .worksheets .content-container .view-all a {
+    text-align: left;
+    font-size: 20px;
+  }
+}
+/* line 522, ../sass/_mixins.scss */
+.worksheets .content-container .view-all a:before {
+  background-image: url(../images/view-all-left.png);
+  float: left;
+  width: 73px;
+  height: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+  background-image: url(../images/view-all-left-hover.png);
+}
+@media sm {
+  /* line 522, ../sass/_mixins.scss */
+  .worksheets .content-container .view-all a:before {
+    margin-right: 10px;
+  }
+}
+@media sm {
+  /* line 522, ../sass/_mixins.scss */
+  .worksheets .content-container .view-all a:before {
+    margin-right: 10px;
+  }
+}
+/* line 562, ../sass/_mixins.scss */
+.worksheets .content-container .view-all a:after {
+  background-image: url(../images/view-all-right.png);
+  float: right;
+  margin-left: 20px;
+  width: 87px;
+  margin-top: 10px;
+  height: 20px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+  background-image: url(../images/view-all-right-hover.png);
+}
+/* line 673, ../sass/_mixins.scss */
+.worksheets .content-container .section-heading {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 37px;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 673, ../sass/_mixins.scss */
+  .worksheets .content-container .section-heading {
+    margin-bottom: 0;
+  }
+}
+/* line 680, ../sass/_mixins.scss */
+.worksheets .content-container .section-heading span {
+  display: inline-block;
+  border-radius: 0 0 60px 60px;
+  font-family: "IFC RAILROAD Bold";
+  color: #fff;
+  font-size: 50px;
+  padding: 12px 63px;
+  background-color: #fac005;
+  color: #d3095b;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 680, ../sass/_mixins.scss */
+  .worksheets .content-container .section-heading span {
+    font-size: 32px;
+    border-radius: 0 0 40px 40px;
+    padding: 8px 40px;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 680, ../sass/_mixins.scss */
+  .worksheets .content-container .section-heading span {
+    font-size: 32px;
+  }
+}
+/* line 735, ../sass/_mixins.scss */
+.worksheets .content-container .content {
+  float: left;
+  width: 100%;
+}
+/* line 26, ../sass/pages/_home.scss */
+.worksheets .content-container .col-md-6 {
+  text-align: center;
+}
+/* line 29, ../sass/pages/_home.scss */
+.worksheets .content-container .col-md-6 img {
+  margin-bottom: 15px;
+}
+
+/* line 38, ../sass/pages/_home.scss */
+.shopping .content-container {
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px;
+  background-color: #1bbfec;
+  background-image: url(../images/shopping-pattern.png);
+}
+/* line 503, ../sass/_mixins.scss */
+.shopping .content-container .view-all {
+  float: left;
+  width: 100%;
+  text-align: right;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 503, ../sass/_mixins.scss */
+  .shopping .content-container .view-all {
+    text-align: center;
+  }
+}
+/* line 511, ../sass/_mixins.scss */
+.shopping .content-container .view-all a {
+  font-family: "Funhouse";
+  font-size: 29px;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  color: #fff;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 511, ../sass/_mixins.scss */
+  .shopping .content-container .view-all a {
+    text-align: left;
+    font-size: 20px;
+  }
+}
+/* line 522, ../sass/_mixins.scss */
+.shopping .content-container .view-all a:before {
+  background-image: url(../images/view-all-left.png);
+  float: left;
+  width: 73px;
+  height: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+  background-image: url(../images/view-all-left-hover.png);
+}
+@media sm {
+  /* line 522, ../sass/_mixins.scss */
+  .shopping .content-container .view-all a:before {
+    margin-right: 10px;
+  }
+}
+@media sm {
+  /* line 522, ../sass/_mixins.scss */
+  .shopping .content-container .view-all a:before {
+    margin-right: 10px;
+  }
+}
+/* line 562, ../sass/_mixins.scss */
+.shopping .content-container .view-all a:after {
+  background-image: url(../images/view-all-right.png);
+  float: right;
+  margin-left: 20px;
+  width: 87px;
+  margin-top: 10px;
+  height: 20px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+  background-image: url(../images/view-all-right-hover.png);
+}
+/* line 673, ../sass/_mixins.scss */
+.shopping .content-container .section-heading {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 37px;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 673, ../sass/_mixins.scss */
+  .shopping .content-container .section-heading {
+    margin-bottom: 0;
+  }
+}
+/* line 680, ../sass/_mixins.scss */
+.shopping .content-container .section-heading span {
+  display: inline-block;
+  border-radius: 0 0 60px 60px;
+  font-family: "IFC RAILROAD Bold";
+  color: #fff;
+  font-size: 50px;
+  padding: 12px 63px;
+  background-color: #d3095b;
+  color: #fff;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 680, ../sass/_mixins.scss */
+  .shopping .content-container .section-heading span {
+    font-size: 32px;
+    border-radius: 0 0 40px 40px;
+    padding: 8px 40px;
+  }
+}
+/* line 735, ../sass/_mixins.scss */
+.shopping .content-container .content {
+  float: left;
+  width: 100%;
+}
+/* line 41, ../sass/pages/_home.scss */
+.shopping .content-container .col-md-6 {
+  text-align: center;
+}
+/* line 44, ../sass/pages/_home.scss */
+.shopping .content-container .col-md-6 img {
+  margin-bottom: 20px;
+}
+
+/* line 52, ../sass/pages/_home.scss */
+.games .content-container {
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px;
+  background-color: #fac005;
+  background-image: url(../images/games-pattern.png);
+}
+/* line 503, ../sass/_mixins.scss */
+.games .content-container .view-all {
+  float: left;
+  width: 100%;
+  text-align: right;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 503, ../sass/_mixins.scss */
+  .games .content-container .view-all {
+    text-align: center;
+  }
+}
+/* line 511, ../sass/_mixins.scss */
+.games .content-container .view-all a {
+  font-family: "Funhouse";
+  font-size: 29px;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  color: #2b3e83;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 511, ../sass/_mixins.scss */
+  .games .content-container .view-all a {
+    text-align: left;
+    font-size: 20px;
+  }
+}
+/* line 522, ../sass/_mixins.scss */
+.games .content-container .view-all a:before {
+  background-image: url(../images/view-all-left.png);
+  float: left;
+  width: 73px;
+  height: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+}
+@media sm {
+  /* line 522, ../sass/_mixins.scss */
+  .games .content-container .view-all a:before {
+    margin-right: 10px;
+  }
+}
+/* line 562, ../sass/_mixins.scss */
+.games .content-container .view-all a:after {
+  background-image: url(../images/view-all-right.png);
+  float: right;
+  margin-left: 20px;
+  width: 87px;
+  margin-top: 10px;
+  height: 20px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+}
+/* line 673, ../sass/_mixins.scss */
+.games .content-container .section-heading {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 37px;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 673, ../sass/_mixins.scss */
+  .games .content-container .section-heading {
+    margin-bottom: 0;
+  }
+}
+/* line 680, ../sass/_mixins.scss */
+.games .content-container .section-heading span {
+  display: inline-block;
+  border-radius: 0 0 60px 60px;
+  font-family: "IFC RAILROAD Bold";
+  color: #fff;
+  font-size: 50px;
+  padding: 12px 63px;
+  background-color: #2b3e83;
+  color: #fff;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 680, ../sass/_mixins.scss */
+  .games .content-container .section-heading span {
+    font-size: 32px;
+    border-radius: 0 0 40px 40px;
+    padding: 8px 40px;
+  }
+}
+/* line 735, ../sass/_mixins.scss */
+.games .content-container .content {
+  float: left;
+  width: 100%;
+}
+/* line 55, ../sass/pages/_home.scss */
+.games .content-container .col-md-6 {
+  text-align: center;
+}
+/* line 58, ../sass/pages/_home.scss */
+.games .content-container .col-md-6 img {
+  margin-bottom: 20px;
+}
+
+/* line 66, ../sass/pages/_home.scss */
+.music .content-container {
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px;
+  background-color: #630460;
+  background-image: url(../images/music-bg.png);
+}
+/* line 503, ../sass/_mixins.scss */
+.music .content-container .view-all {
+  float: left;
+  width: 100%;
+  text-align: right;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 503, ../sass/_mixins.scss */
+  .music .content-container .view-all {
+    text-align: center;
+  }
+}
+/* line 511, ../sass/_mixins.scss */
+.music .content-container .view-all a {
+  font-family: "Funhouse";
+  font-size: 29px;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  color: #fff;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 511, ../sass/_mixins.scss */
+  .music .content-container .view-all a {
+    text-align: left;
+    font-size: 20px;
+  }
+}
+/* line 522, ../sass/_mixins.scss */
+.music .content-container .view-all a:before {
+  background-image: url(../images/view-all-left.png);
+  float: left;
+  width: 73px;
+  height: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+  background-image: url(../images/view-all-left-hover.png);
+}
+@media sm {
+  /* line 522, ../sass/_mixins.scss */
+  .music .content-container .view-all a:before {
+    margin-right: 10px;
+  }
+}
+@media sm {
+  /* line 522, ../sass/_mixins.scss */
+  .music .content-container .view-all a:before {
+    margin-right: 10px;
+  }
+}
+/* line 562, ../sass/_mixins.scss */
+.music .content-container .view-all a:after {
+  background-image: url(../images/view-all-right.png);
+  float: right;
+  margin-left: 20px;
+  width: 87px;
+  margin-top: 10px;
+  height: 20px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+  background-image: url(../images/view-all-right-hover.png);
+}
+/* line 673, ../sass/_mixins.scss */
+.music .content-container .section-heading {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 37px;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 673, ../sass/_mixins.scss */
+  .music .content-container .section-heading {
+    margin-bottom: 0;
+  }
+}
+/* line 680, ../sass/_mixins.scss */
+.music .content-container .section-heading span {
+  display: inline-block;
+  border-radius: 0 0 60px 60px;
+  font-family: "IFC RAILROAD Bold";
+  color: #fff;
+  font-size: 50px;
+  padding: 12px 63px;
+  background-color: #fac005;
+  color: #630460;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 680, ../sass/_mixins.scss */
+  .music .content-container .section-heading span {
+    font-size: 32px;
+    border-radius: 0 0 40px 40px;
+    padding: 8px 40px;
+  }
+}
+/* line 735, ../sass/_mixins.scss */
+.music .content-container .content {
+  float: left;
+  width: 100%;
+}
+/* line 69, ../sass/pages/_home.scss */
+.music .content-container .col-md-6 {
+  text-align: center;
+}
+/* line 72, ../sass/pages/_home.scss */
+.music .content-container .col-md-6 img {
+  margin-bottom: 20px;
+}
+
+/* line 81, ../sass/pages/_home.scss */
+.companyInfo .aboutUs,
+.companyInfo .ourTeam,
+.companyInfo .ourMission {
+  text-align: center;
+  color: #fff;
+}
+/* line 87, ../sass/pages/_home.scss */
+.companyInfo .aboutUs .card-body,
+.companyInfo .ourTeam .card-body,
+.companyInfo .ourMission .card-body {
+  padding: 4.2rem 2rem;
+}
+/* line 91, ../sass/pages/_home.scss */
+.companyInfo .aboutUs .card-title,
+.companyInfo .ourTeam .card-title,
+.companyInfo .ourMission .card-title {
+  font-family: "IFC RAILROAD Bold";
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 1.8rem;
+}
+/* line 98, ../sass/pages/_home.scss */
+.companyInfo .aboutUs .card-text,
+.companyInfo .ourTeam .card-text,
+.companyInfo .ourMission .card-text {
+  color: #fff;
+  font-size: 23px;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 98, ../sass/pages/_home.scss */
+  .companyInfo .aboutUs .card-text,
+  .companyInfo .ourTeam .card-text,
+  .companyInfo .ourMission .card-text {
+    font-size: 18px;
+  }
+}
+/* line 109, ../sass/pages/_home.scss */
+.companyInfo .aboutUs .card-footer,
+.companyInfo .ourTeam .card-footer,
+.companyInfo .ourMission .card-footer {
+  border: 0;
+  margin-top: 30px;
+  background: transparent;
+  margin-bottom: 20px;
+}
+/* line 115, ../sass/pages/_home.scss */
+.companyInfo .aboutUs .card-footer a,
+.companyInfo .ourTeam .card-footer a,
+.companyInfo .ourMission .card-footer a {
+  background-image: url(../images/read-more-bg.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  padding: 1.7rem 2.1rem;
+  font-family: "IFC RAILROAD Bold";
+  font-size: 30px;
+  text-decoration: none;
+}
+/* line 127, ../sass/pages/_home.scss */
+.companyInfo .aboutUs {
+  background-color: #793efd;
+}
+/* line 131, ../sass/pages/_home.scss */
+.companyInfo .aboutUs .card-footer a {
+  color: #793efd;
+}
+/* line 137, ../sass/pages/_home.scss */
+.companyInfo .ourTeam {
+  background-color: #fac005;
+  position: relative;
+}
+/* line 141, ../sass/pages/_home.scss */
+.companyInfo .ourTeam:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(../images/vertical-border.jpg);
+  background-repeat: repeat-y;
+  height: 100%;
+  width: 20px;
+  content: '';
+}
+/* line 152, ../sass/pages/_home.scss */
+.companyInfo .ourTeam:after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: url(../images/vertical-border.jpg);
+  background-repeat: repeat-y;
+  height: 100%;
+  width: 20px;
+  content: '';
+}
+/* line 164, ../sass/pages/_home.scss */
+.companyInfo .ourTeam .card-footer a {
+  color: #fac005;
+}
+/* line 170, ../sass/pages/_home.scss */
+.companyInfo .ourMission {
+  background-color: #1bbfec;
+}
+/* line 174, ../sass/pages/_home.scss */
+.companyInfo .ourMission .card-footer a {
+  color: #1bbfec;
+}
+
+/* line 182, ../sass/pages/_home.scss */
+.support .content-container {
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px;
+  background-color: #2b3e83;
+  background-image: url(../images/support-pattern.png);
+}
+/* line 503, ../sass/_mixins.scss */
+.support .content-container .view-all {
+  float: left;
+  width: 100%;
+  text-align: right;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 503, ../sass/_mixins.scss */
+  .support .content-container .view-all {
+    text-align: center;
+  }
+}
+/* line 511, ../sass/_mixins.scss */
+.support .content-container .view-all a {
+  font-family: "Funhouse";
+  font-size: 29px;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  background-color: #fac005;
+  color: #d3095b;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 511, ../sass/_mixins.scss */
+  .support .content-container .view-all a {
+    text-align: left;
+    font-size: 20px;
+  }
+}
+/* line 522, ../sass/_mixins.scss */
+.support .content-container .view-all a:before {
+  background-image: url(../images/view-all-left.png);
+  float: left;
+  width: 73px;
+  height: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+}
+@media sm {
+  /* line 522, ../sass/_mixins.scss */
+  .support .content-container .view-all a:before {
+    margin-right: 10px;
+  }
+}
+/* line 562, ../sass/_mixins.scss */
+.support .content-container .view-all a:after {
+  background-image: url(../images/view-all-right.png);
+  float: right;
+  margin-left: 20px;
+  width: 87px;
+  margin-top: 10px;
+  height: 20px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+}
+/* line 673, ../sass/_mixins.scss */
+.support .content-container .section-heading {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 37px;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 673, ../sass/_mixins.scss */
+  .support .content-container .section-heading {
+    margin-bottom: 0;
+  }
+}
+/* line 680, ../sass/_mixins.scss */
+.support .content-container .section-heading span {
+  display: inline-block;
+  border-radius: 0 0 60px 60px;
+  font-family: "IFC RAILROAD Bold";
+  color: #fff;
+  font-size: 50px;
+  padding: 12px 63px;
+  background-color: #fac005;
+  color: #d3095b;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 680, ../sass/_mixins.scss */
+  .support .content-container .section-heading span {
+    font-size: 32px;
+    border-radius: 0 0 40px 40px;
+    padding: 8px 40px;
+  }
+}
+/* line 735, ../sass/_mixins.scss */
+.support .content-container .content {
+  float: left;
+  width: 100%;
+}
+/* line 185, ../sass/pages/_home.scss */
+.support .content-container .col-md-6 {
+  text-align: center;
+}
+/* line 188, ../sass/pages/_home.scss */
+.support .content-container .col-md-6 img {
+  margin-bottom: 20px;
+}
+/* line 193, ../sass/pages/_home.scss */
+.support .content-container h5 {
+  color: #fac005;
+  font-family: "IFC RAILROAD Bold";
+  font-size: 52px;
+  font-weight: bold;
+  text-align: left;
+  float: left;
+  width: 100%;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 193, ../sass/pages/_home.scss */
+  .support .content-container h5 {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+/* line 207, ../sass/pages/_home.scss */
+.support .content-container .testimonialSlider {
+  float: left;
+  width: 100%;
+}
+/* line 210, ../sass/pages/_home.scss */
+.support .content-container .testimonialSlider p {
+  position: relative;
+  border: solid 4px #fac005;
+  border-radius: 30px;
+  max-width: 500px;
+  padding: 48px;
+  font-size: 23px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  background-color: #3952ac;
+  text-align: left;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 210, ../sass/pages/_home.scss */
+  .support .content-container .testimonialSlider p {
+    display: inline-block;
+    float: none;
+  }
+}
+/* line 225, ../sass/pages/_home.scss */
+.support .content-container .testimonialSlider p:before {
+  background-image: url(../images/left-top-testimonial.png);
+  position: relative;
+  left: 16px;
+  top: 16px;
+  width: 30px;
+  height: 27px;
+  content: '';
+  position: absolute;
+}
+/* line 235, ../sass/pages/_home.scss */
+.support .content-container .testimonialSlider p:after {
+  background-image: url(../images/bottom-testimonial.png);
+  position: relative;
+  right: 16px;
+  bottom: 16px;
+  width: 30px;
+  height: 27px;
+  content: '';
+  position: absolute;
+}
+/* line 247, ../sass/pages/_home.scss */
+.support .content-container .testimonialSlider em {
+  color: #fac005;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  padding-top: 20px;
+  float: left;
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+}
+/* line 256, ../sass/pages/_home.scss */
+.support .content-container .testimonialSlider em:before {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 22px 17px 0 17px;
+  border-color: #fac005 transparent transparent transparent;
+  position: absolute;
+  left: 50%;
+  top: -50%;
+  content: '';
+  transform: translate(-50%, 10px);
+}
+
+/* line 274, ../sass/pages/_home.scss */
+.slider-conta {
+  padding: 4.5rem 0;
+}
+/* line 277, ../sass/pages/_home.scss */
+.slider-conta .cd-h-timeline__events {
+  border-bottom: solid 2px #fff;
+  text-align: center;
+}
+/* line 281, ../sass/pages/_home.scss */
+.slider-conta .cd-h-timeline__events img {
+  object-fit: cover;
+}
+/* line 286, ../sass/pages/_home.scss */
+.slider-conta .cd-h-timeline__events h5 {
+  color: #fff;
+  font-size: 33px;
+  font-family: "IFC RAILROAD Bold";
+  margin-bottom: 20px;
+}
+/* line 293, ../sass/pages/_home.scss */
+.slider-conta .cd-h-timeline__events p {
+  color: #fff;
+  font-size: 25px;
+  font-family: "Roboto Condensed";
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 293, ../sass/pages/_home.scss */
+  .slider-conta .cd-h-timeline__events p {
+    font-size: 18px;
+  }
+}
+/* line 302, ../sass/pages/_home.scss */
+.slider-conta .cd-h-timeline__events p a {
+  text-decoration: underline;
+  color: #fff;
+  display: inline-block;
+  margin-top: 25px;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+/* line 315, ../sass/pages/_home.scss */
+.get-contact {
+  background: #630460;
+  height: 100%;
+  width: 100%;
+  padding: 4.5rem 8rem;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 315, ../sass/pages/_home.scss */
+  .get-contact {
+    padding: 1.5rem;
+  }
+}
+/* line 324, ../sass/pages/_home.scss */
+.get-contact h5 {
+  float: left;
+  width: 100%;
+  color: #fff;
+  font-family: "IFC RAILROAD Bold";
+  text-align: left;
+  font-size: 33px;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 324, ../sass/pages/_home.scss */
+  .get-contact h5 {
+    text-align: center;
+  }
+}
+/* line 337, ../sass/pages/_home.scss */
+.get-contact p {
+  color: #fff;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 337, ../sass/pages/_home.scss */
+  .get-contact p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    text-align: center;
+  }
+}
+/* line 346, ../sass/pages/_home.scss */
+.get-contact p a {
+  color: #ffd217;
+  border-right: solid 2px #ffd217;
+  padding: 0 10px;
+  float: left;
+  text-decoration: none;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 346, ../sass/pages/_home.scss */
+  .get-contact p a {
+    border: 0;
+    text-align: center;
+    width: 100%;
+  }
+}
+/* line 358, ../sass/pages/_home.scss */
+.get-contact p a:first-child {
+  padding-left: 0;
+}
+/* line 362, ../sass/pages/_home.scss */
+.get-contact p a:last-child {
+  padding-right: 0;
+  border-right: 0;
+}
+/* line 369, ../sass/pages/_home.scss */
+.get-contact button.button {
+  background-image: url(../images/read-more-bg.png);
+  background-color: transparent;
+  width: 205px;
+  height: 95px;
+  font-size: 33px;
+  color: #630460;
+  font-family: "IFC RAILROAD Bold";
+  border: 0;
+  line-height: 95px;
+}
+/* line 381, ../sass/pages/_home.scss */
+.get-contact .box-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+/* line 385, ../sass/pages/_home.scss */
+.get-contact .box-container:before {
+  float: left;
+  width: 23px;
+  height: 64px;
+}
+/* line 393, ../sass/pages/_home.scss */
+.get-contact .box-container::after {
+  float: right;
+  width: 23px;
+  height: 64px;
+}
+/* line 402, ../sass/pages/_home.scss */
+.get-contact .box-container.textarea:before {
+  background: url(../images/left-textarea-border.png);
+  height: 130px;
+  width: 25px;
+}
+/* line 408, ../sass/pages/_home.scss */
+.get-contact .box-container.textarea::after {
+  background: url(../images/right-textarea-border.png);
+  height: 130px;
+  width: 25px;
+}
+/* line 414, ../sass/pages/_home.scss */
+.get-contact .box-container.textarea .form-control {
+  height: 130px;
+  width: calc(100% - 50px);
+}
+/* line 420, ../sass/pages/_home.scss */
+.get-contact .box-container .form-control {
+  width: calc(100% - 46px);
+  float: left;
+  background: transparent;
+  border: 0;
+  height: 64px;
+  line-height: normal;
+  border: solid 1px #fff;
+  border-radius: 7px;
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  margin-bottom: 25px;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 420, ../sass/pages/_home.scss */
+  .get-contact .box-container .form-control {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+  }
+}
+/* line 442, ../sass/pages/_home.scss */
+.get-contact .box-container .form-control:focus {
+  outline: none;
+  box-shadow: 0 0 0;
+}
+
+/* line 452, ../sass/pages/_home.scss */
+.js .carousel-indicators {
+  display: inline-block;
+  text-align: center;
+}
+
+/* line 453, ../sass/pages/_home.scss */
+.js .carousel-indicators li {
+  float: none;
+  width: 30px;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 767.98px) {
+  /* line 459, ../sass/pages/_home.scss */
+  .js .cd-h-timeline__date {
+    font-size: 18px;
+  }
+}
+
+/* line 465, ../sass/pages/_home.scss */
+.navbar-toggler {
+  background-color: #d20959;
+  padding: 8px 15px;
+}
+/* line 468, ../sass/pages/_home.scss */
+.navbar-toggler i {
+  color: #fff;
+}
+
+/* line 1, ../sass/pages/_music.scss */
+.music-banner {
+  background-image: url(../images/music-banner-bg.png);
+  background-position: left top;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  width: 100%;
+  padding: 4rem 0;
+}
+/* line 12, ../sass/pages/_music.scss */
+.music-banner .carousel-inner .carousel-item .carousel-captions {
+  max-width: 1090px;
+  margin: auto;
+  margin-top: 2rem;
+}
+/* line 17, ../sass/pages/_music.scss */
+.music-banner .carousel-inner .carousel-item .carousel-captions h5 {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-family: "IFC RAILROAD Bold";
+  font-size: 40px;
+  color: #fff;
+}
+/* line 25, ../sass/pages/_music.scss */
+.music-banner .carousel-inner .carousel-item .carousel-captions p {
+  font-size: 25px;
+  font-family: "Roboto Condensed Light";
+  float: left;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+/* line 40, ../sass/pages/_music.scss */
+.music.music-added .content-container {
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px;
+  background-color: #630460;
+  background-image: url(../images/music-bg.png);
+}
+/* line 503, ../sass/_mixins.scss */
+.music.music-added .content-container .view-all {
+  float: left;
+  width: 100%;
+  text-align: right;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 503, ../sass/_mixins.scss */
+  .music.music-added .content-container .view-all {
+    text-align: center;
+  }
+}
+/* line 511, ../sass/_mixins.scss */
+.music.music-added .content-container .view-all a {
+  font-family: "Funhouse";
+  font-size: 29px;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  color: #fff;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 511, ../sass/_mixins.scss */
+  .music.music-added .content-container .view-all a {
+    text-align: left;
+    font-size: 20px;
+  }
+}
+/* line 522, ../sass/_mixins.scss */
+.music.music-added .content-container .view-all a:before {
+  background-image: url(../images/view-all-left.png);
+  float: left;
+  width: 73px;
+  height: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+  background-image: url(../images/view-all-left-hover.png);
+}
+@media sm {
+  /* line 522, ../sass/_mixins.scss */
+  .music.music-added .content-container .view-all a:before {
+    margin-right: 10px;
+  }
+}
+@media sm {
+  /* line 522, ../sass/_mixins.scss */
+  .music.music-added .content-container .view-all a:before {
+    margin-right: 10px;
+  }
+}
+/* line 562, ../sass/_mixins.scss */
+.music.music-added .content-container .view-all a:after {
+  background-image: url(../images/view-all-right.png);
+  float: right;
+  margin-left: 20px;
+  width: 87px;
+  margin-top: 10px;
+  height: 20px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+  background-image: url(../images/view-all-right-hover.png);
+}
+/* line 673, ../sass/_mixins.scss */
+.music.music-added .content-container .section-heading {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 37px;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 673, ../sass/_mixins.scss */
+  .music.music-added .content-container .section-heading {
+    margin-bottom: 0;
+  }
+}
+/* line 680, ../sass/_mixins.scss */
+.music.music-added .content-container .section-heading span {
+  display: inline-block;
+  border-radius: 0 0 60px 60px;
+  font-family: "IFC RAILROAD Bold";
+  color: #fff;
+  font-size: 50px;
+  padding: 12px 63px;
+  background-color: #fac005;
+  color: #630460;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 680, ../sass/_mixins.scss */
+  .music.music-added .content-container .section-heading span {
+    font-size: 32px;
+    border-radius: 0 0 40px 40px;
+    padding: 8px 40px;
+  }
+}
+/* line 735, ../sass/_mixins.scss */
+.music.music-added .content-container .content {
+  float: left;
+  width: 100%;
+}
+/* line 44, ../sass/pages/_music.scss */
+.music.music-added .content-container .section-heading span {
+  background: transparent;
+  color: #fac005;
+  margin-top: 30px;
+}
+/* line 52, ../sass/pages/_music.scss */
+.music.music-added .content-container .card img {
+  max-width: 328px;
+  height: 398px;
+  margin: auto;
+}
+/* line 58, ../sass/pages/_music.scss */
+.music.music-added .content-container .card .card-title {
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px;
+  background-color: #630460;
+  background-image: url(../images/music-bg.png);
+  padding-bottom: 0;
+  font-family: "IFC RAILROAD Bold";
+  font-size: 33px;
+}
+/* line 503, ../sass/_mixins.scss */
+.music.music-added .content-container .card .card-title .view-all {
+  float: left;
+  width: 100%;
+  text-align: right;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 503, ../sass/_mixins.scss */
+  .music.music-added .content-container .card .card-title .view-all {
+    text-align: center;
+  }
+}
+/* line 511, ../sass/_mixins.scss */
+.music.music-added .content-container .card .card-title .view-all a {
+  font-family: "Funhouse";
+  font-size: 29px;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  color: #fff;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 511, ../sass/_mixins.scss */
+  .music.music-added .content-container .card .card-title .view-all a {
+    text-align: left;
+    font-size: 20px;
+  }
+}
+/* line 522, ../sass/_mixins.scss */
+.music.music-added .content-container .card .card-title .view-all a:before {
+  background-image: url(../images/view-all-left.png);
+  float: left;
+  width: 73px;
+  height: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+  background-image: url(../images/view-all-left-hover.png);
+}
+@media sm {
+  /* line 522, ../sass/_mixins.scss */
+  .music.music-added .content-container .card .card-title .view-all a:before {
+    margin-right: 10px;
+  }
+}
+@media sm {
+  /* line 522, ../sass/_mixins.scss */
+  .music.music-added .content-container .card .card-title .view-all a:before {
+    margin-right: 10px;
+  }
+}
+/* line 562, ../sass/_mixins.scss */
+.music.music-added .content-container .card .card-title .view-all a:after {
+  background-image: url(../images/view-all-right.png);
+  float: right;
+  margin-left: 20px;
+  width: 87px;
+  margin-top: 10px;
+  height: 20px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+  background-image: url(../images/view-all-right-hover.png);
+}
+/* line 673, ../sass/_mixins.scss */
+.music.music-added .content-container .card .card-title .section-heading {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 37px;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 673, ../sass/_mixins.scss */
+  .music.music-added .content-container .card .card-title .section-heading {
+    margin-bottom: 0;
+  }
+}
+/* line 680, ../sass/_mixins.scss */
+.music.music-added .content-container .card .card-title .section-heading span {
+  display: inline-block;
+  border-radius: 0 0 60px 60px;
+  font-family: "IFC RAILROAD Bold";
+  color: #fff;
+  font-size: 50px;
+  padding: 12px 63px;
+  background-color: #fac005;
+  color: #630460;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 680, ../sass/_mixins.scss */
+  .music.music-added .content-container .card .card-title .section-heading span {
+    font-size: 32px;
+    border-radius: 0 0 40px 40px;
+    padding: 8px 40px;
+  }
+}
+/* line 735, ../sass/_mixins.scss */
+.music.music-added .content-container .card .card-title .content {
+  float: left;
+  width: 100%;
+}
+/* line 65, ../sass/pages/_music.scss */
+.music.music-added .content-container .card .card-text {
+  font-size: 25px;
+  font-family: "Roboto Condensed Light";
+}
+
+/* line 75, ../sass/pages/_music.scss */
+.music-detail {
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px;
+  background-color: #630460;
+  background-image: url(../images/music-detail-pattern.png);
+}
+/* line 503, ../sass/_mixins.scss */
+.music-detail .view-all {
+  float: left;
+  width: 100%;
+  text-align: right;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 503, ../sass/_mixins.scss */
+  .music-detail .view-all {
+    text-align: center;
+  }
+}
+/* line 511, ../sass/_mixins.scss */
+.music-detail .view-all a {
+  font-family: "Funhouse";
+  font-size: 29px;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  background-color: black;
+  color: #fac005;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 511, ../sass/_mixins.scss */
+  .music-detail .view-all a {
+    text-align: left;
+    font-size: 20px;
+  }
+}
+/* line 522, ../sass/_mixins.scss */
+.music-detail .view-all a:before {
+  background-image: url(../images/view-all-left.png);
+  float: left;
+  width: 73px;
+  height: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+}
+@media sm {
+  /* line 522, ../sass/_mixins.scss */
+  .music-detail .view-all a:before {
+    margin-right: 10px;
+  }
+}
+/* line 562, ../sass/_mixins.scss */
+.music-detail .view-all a:after {
+  background-image: url(../images/view-all-right.png);
+  float: right;
+  margin-left: 20px;
+  width: 87px;
+  margin-top: 10px;
+  height: 20px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+}
+/* line 673, ../sass/_mixins.scss */
+.music-detail .section-heading {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 37px;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 673, ../sass/_mixins.scss */
+  .music-detail .section-heading {
+    margin-bottom: 0;
+  }
+}
+/* line 680, ../sass/_mixins.scss */
+.music-detail .section-heading span {
+  display: inline-block;
+  border-radius: 0 0 60px 60px;
+  font-family: "IFC RAILROAD Bold";
+  color: #fff;
+  font-size: 50px;
+  padding: 12px 63px;
+  background-color: black;
+  color: #fac005;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 680, ../sass/_mixins.scss */
+  .music-detail .section-heading span {
+    font-size: 32px;
+    border-radius: 0 0 40px 40px;
+    padding: 8px 40px;
+  }
+}
+/* line 735, ../sass/_mixins.scss */
+.music-detail .content {
+  float: left;
+  width: 100%;
+}
+/* line 80, ../sass/pages/_music.scss */
+.music-detail .content .album-image h5 {
+  float: left;
+  width: 100%;
+  margin-top: 15px;
+  font-family: "IFC RAILROAD Bold";
+  font-size: 26px;
+  color: #fff;
+}
+/* line 88, ../sass/pages/_music.scss */
+.music-detail .content .album-image p {
+  font-size: 20px;
+  font-family: "Roboto Condensed Light";
+  float: left;
+  width: 100%;
+  color: #fff;
+}
+/* line 97, ../sass/pages/_music.scss */
+.music-detail .content .album-detail h5 {
+  float: left;
+  width: 100%;
+  line-height: normal;
+  font-family: "IFC RAILROAD Bold";
+  font-size: 45px;
+  color: #fff;
+}
+/* line 105, ../sass/pages/_music.scss */
+.music-detail .content .album-detail ol {
+  float: left;
+  width: 100%;
+  margin-bottom: 15px;
+}
+/* line 109, ../sass/pages/_music.scss */
+.music-detail .content .album-detail ol li {
+  float: left;
+  width: auto;
+  margin-right: 35px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: #fac005;
+  list-style-type: disc;
+}
+/* line 119, ../sass/pages/_music.scss */
+.music-detail .content .album-detail ol li::marker {
+  color: #fff;
+}
+/* line 123, ../sass/pages/_music.scss */
+.music-detail .content .album-detail ol li:first-child {
+  list-style: none;
+}
+/* line 131, ../sass/pages/_music.scss */
+.music-detail .music-playlist {
+  float: left;
+  width: 100%;
+  margin-top: 15px;
+}
+/* line 137, ../sass/pages/_music.scss */
+.music-detail .music-playlist .album-name img {
+  float: left;
+  margin-right: 10px;
+}
+/* line 142, ../sass/pages/_music.scss */
+.music-detail .music-playlist .album-name h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  width: auto;
+  float: none;
+  margin-bottom: 0;
+}
+/* line 151, ../sass/pages/_music.scss */
+.music-detail .music-playlist .album-name p {
+  font-size: 12px;
+  font-family: "Roboto Condensed Light";
+  color: #fff;
+}
+
+/* line 163, ../sass/pages/_music.scss */
+.customer-logos {
+  float: left;
+  width: 100%;
+}
+/* line 167, ../sass/pages/_music.scss */
+.customer-logos.slick-slider {
+  margin: 0px 0;
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+/* line 183, ../sass/pages/_music.scss */
+.customer-logos.slick-slider img {
+  width: 100%;
+}
+/* line 187, ../sass/pages/_music.scss */
+.customer-logos.slick-slider .slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+/* line 198, ../sass/pages/_music.scss */
+.customer-logos.slick-slider .slick-list:focus {
+  outline: none;
+}
+/* line 201, ../sass/pages/_music.scss */
+.customer-logos.slick-slider .slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+/* line 206, ../sass/pages/_music.scss */
+.customer-logos.slick-slider .slick-track {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+/* line 218, ../sass/pages/_music.scss */
+.customer-logos.slick-slider .slick-track:after, .customer-logos.slick-slider .slick-track:before {
+  display: table;
+  content: '';
+}
+/* line 222, ../sass/pages/_music.scss */
+.customer-logos.slick-slider .slick-track:after {
+  clear: both;
+}
+
+/* line 229, ../sass/pages/_music.scss */
+.recommend-album {
+  float: left;
+  width: 100%;
+  margin: 4rem 0;
+}
+/* line 233, ../sass/pages/_music.scss */
+.recommend-album h5 {
+  float: left;
+  width: 100%;
+  line-height: normal;
+  font-family: "IFC RAILROAD Bold";
+  font-size: 50px;
+  color: #fff;
+}
+/* line 241, ../sass/pages/_music.scss */
+.recommend-album .carousel-logo {
+  width: auto;
+}
+/* line 244, ../sass/pages/_music.scss */
+.recommend-album .carousel-logo > div {
+  float: left;
+}
+/* line 249, ../sass/pages/_music.scss */
+.recommend-album .carousel-by-item [class*="cloneditem-"] {
+  display: none;
+}
+
+/* line 254, ../sass/pages/_music.scss */
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+/* line 258, ../sass/pages/_music.scss */
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  padding: 0 20px 0 0;
+}
+
+/* line 266, ../sass/pages/_music.scss */
+[dir='rtl'] .slick-slide {
+  float: right;
+}
+
+/* line 270, ../sass/pages/_music.scss */
+.slick-slide img {
+  display: block;
+  border: solid 5px #fff;
+}
+
+/* line 276, ../sass/pages/_music.scss */
+.slick-slide.slick-loading img {
+  display: none;
+}
+
+/* line 280, ../sass/pages/_music.scss */
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+
+/* line 284, ../sass/pages/_music.scss */
+.slick-initialized .slick-slide {
+  display: block;
+}
+
+/* line 288, ../sass/pages/_music.scss */
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+/* line 292, ../sass/pages/_music.scss */
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+/* line 298, ../sass/pages/_music.scss */
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
+/* line 1, ../sass/pages/_video.scss */
+.topVideo-banner {
+  float: left;
+  width: 100%;
+}
+/* line 7, ../sass/pages/_video.scss */
+.topVideo-banner .carousel-inner .carousel-item .carousel-caption {
+  max-width: 1090px;
+  left: 0;
+  text-align: left;
+  top: 0;
+  bottom: auto;
+  height: 100%;
+  margin: auto;
+  margin-top: 0;
+  display: flex !important;
+  align-items: center;
+}
+/* line 19, ../sass/pages/_video.scss */
+.topVideo-banner .carousel-inner .carousel-item .carousel-caption .carousel-content {
+  float: left;
+  float: left;
+  width: 100%;
+}
+/* line 24, ../sass/pages/_video.scss */
+.topVideo-banner .carousel-inner .carousel-item .carousel-caption h5 {
+  float: left;
+  width: 100%;
+  font-family: "IFC RAILROAD Bold";
+  font-size: 40px;
+  color: #fff;
+  color: #948f93;
+}
+/* line 32, ../sass/pages/_video.scss */
+.topVideo-banner .carousel-inner .carousel-item .carousel-caption .content {
+  font-size: 25px;
+  font-family: "Roboto Condensed Light";
+  float: left;
+  width: 100%;
+  color: #fff;
+  margin-bottom: 20px;
+}
+/* line 39, ../sass/pages/_video.scss */
+.topVideo-banner .carousel-inner .carousel-item .carousel-caption .content span {
+  float: left;
+  background-color: #00aeef;
+  color-interpolation-filters: #fff;
+  font-family: "Roboto Condensed Bold";
+  padding: 0 10px;
+}
+/* line 47, ../sass/pages/_video.scss */
+.topVideo-banner .carousel-inner .carousel-item .carousel-caption .content ul {
+  float: left;
+  margin-top: 5px;
+}
+/* line 51, ../sass/pages/_video.scss */
+.topVideo-banner .carousel-inner .carousel-item .carousel-caption .content ul li {
+  float: left;
+  margin-left: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+/* line 61, ../sass/pages/_video.scss */
+.topVideo-banner .carousel-inner .carousel-item .carousel-caption p.text {
+  font-size: 16px;
+  float: left;
+  width: 100%;
+  font-family: "Roboto Condensed Light";
+  line-height: 26px;
+  max-width: 500px;
+}
+/* line 71, ../sass/pages/_video.scss */
+.topVideo-banner .carousel-inner .carousel-item .carousel-caption .banner-action {
+  float: left;
+  width: 100%;
+  margin-top: 25px;
+}
+/* line 76, ../sass/pages/_video.scss */
+.topVideo-banner .carousel-inner .carousel-item .carousel-caption .banner-action a {
+  color: #fff;
+  font-family: "IFC RAILROAD Bold";
+  font-size: 24px;
+}
+/* line 81, ../sass/pages/_video.scss */
+.topVideo-banner .carousel-inner .carousel-item .carousel-caption .banner-action a:first-child {
+  margin-right: 20px;
+}
+/* line 85, ../sass/pages/_video.scss */
+.topVideo-banner .carousel-inner .carousel-item .carousel-caption .banner-action a:hover {
+  text-decoration: none;
+}
+
+/* line 99, ../sass/pages/_video.scss */
+main .section.vismaadPioneer .content-container {
+  padding: 4rem 0;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px;
+  background-color: #d3095b;
+  text-align: center;
+  color: #fff;
+}
+/* line 503, ../sass/_mixins.scss */
+main .section.vismaadPioneer .content-container .view-all {
+  float: left;
+  width: 100%;
+  text-align: right;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 503, ../sass/_mixins.scss */
+  main .section.vismaadPioneer .content-container .view-all {
+    text-align: center;
+  }
+}
+/* line 511, ../sass/_mixins.scss */
+main .section.vismaadPioneer .content-container .view-all a {
+  font-family: "Funhouse";
+  font-size: 29px;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  background-color: black;
+  color: #fac005;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 511, ../sass/_mixins.scss */
+  main .section.vismaadPioneer .content-container .view-all a {
+    text-align: left;
+    font-size: 20px;
+  }
+}
+/* line 522, ../sass/_mixins.scss */
+main .section.vismaadPioneer .content-container .view-all a:before {
+  background-image: url(../images/view-all-left.png);
+  float: left;
+  width: 73px;
+  height: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+}
+@media sm {
+  /* line 522, ../sass/_mixins.scss */
+  main .section.vismaadPioneer .content-container .view-all a:before {
+    margin-right: 10px;
+  }
+}
+/* line 562, ../sass/_mixins.scss */
+main .section.vismaadPioneer .content-container .view-all a:after {
+  background-image: url(../images/view-all-right.png);
+  float: right;
+  margin-left: 20px;
+  width: 87px;
+  margin-top: 10px;
+  height: 20px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+}
+/* line 673, ../sass/_mixins.scss */
+main .section.vismaadPioneer .content-container .section-heading {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 37px;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 673, ../sass/_mixins.scss */
+  main .section.vismaadPioneer .content-container .section-heading {
+    margin-bottom: 0;
+  }
+}
+/* line 680, ../sass/_mixins.scss */
+main .section.vismaadPioneer .content-container .section-heading span {
+  display: inline-block;
+  border-radius: 0 0 60px 60px;
+  font-family: "IFC RAILROAD Bold";
+  color: #fff;
+  font-size: 50px;
+  padding: 12px 63px;
+  background-color: black;
+  color: #fac005;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 680, ../sass/_mixins.scss */
+  main .section.vismaadPioneer .content-container .section-heading span {
+    font-size: 32px;
+    border-radius: 0 0 40px 40px;
+    padding: 8px 40px;
+  }
+}
+/* line 735, ../sass/_mixins.scss */
+main .section.vismaadPioneer .content-container .content {
+  float: left;
+  width: 100%;
+}
+/* line 105, ../sass/pages/_video.scss */
+main .section.vismaadPioneer .content-container h5 {
+  font-size: 43px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 50px;
+}
+/* line 111, ../sass/pages/_video.scss */
+main .section.vismaadPioneer .content-container p {
+  color: #fac005;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 50px;
+}
+/* line 120, ../sass/pages/_video.scss */
+main .section.sakhiyaan {
+  background-image: url(../images/borde-section.png);
+  background-color: #fac005;
+  padding: 2rem 0;
+}
+/* line 125, ../sass/pages/_video.scss */
+main .section.sakhiyaan .content-container {
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px;
+  background-color: #fac005;
+  background-image: url(../images/main-pattern-sakhiyaa.png);
+}
+/* line 503, ../sass/_mixins.scss */
+main .section.sakhiyaan .content-container .view-all {
+  float: left;
+  width: 100%;
+  text-align: right;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 503, ../sass/_mixins.scss */
+  main .section.sakhiyaan .content-container .view-all {
+    text-align: center;
+  }
+}
+/* line 511, ../sass/_mixins.scss */
+main .section.sakhiyaan .content-container .view-all a {
+  font-family: "Funhouse";
+  font-size: 29px;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  background-color: black;
+  color: #fac005;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 511, ../sass/_mixins.scss */
+  main .section.sakhiyaan .content-container .view-all a {
+    text-align: left;
+    font-size: 20px;
+  }
+}
+/* line 522, ../sass/_mixins.scss */
+main .section.sakhiyaan .content-container .view-all a:before {
+  background-image: url(../images/view-all-left.png);
+  float: left;
+  width: 73px;
+  height: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+}
+@media sm {
+  /* line 522, ../sass/_mixins.scss */
+  main .section.sakhiyaan .content-container .view-all a:before {
+    margin-right: 10px;
+  }
+}
+/* line 562, ../sass/_mixins.scss */
+main .section.sakhiyaan .content-container .view-all a:after {
+  background-image: url(../images/view-all-right.png);
+  float: right;
+  margin-left: 20px;
+  width: 87px;
+  margin-top: 10px;
+  height: 20px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+}
+/* line 673, ../sass/_mixins.scss */
+main .section.sakhiyaan .content-container .section-heading {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 37px;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 673, ../sass/_mixins.scss */
+  main .section.sakhiyaan .content-container .section-heading {
+    margin-bottom: 0;
+  }
+}
+/* line 680, ../sass/_mixins.scss */
+main .section.sakhiyaan .content-container .section-heading span {
+  display: inline-block;
+  border-radius: 0 0 60px 60px;
+  font-family: "IFC RAILROAD Bold";
+  color: #fff;
+  font-size: 50px;
+  padding: 12px 63px;
+  background-color: black;
+  color: #fac005;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 680, ../sass/_mixins.scss */
+  main .section.sakhiyaan .content-container .section-heading span {
+    font-size: 32px;
+    border-radius: 0 0 40px 40px;
+    padding: 8px 40px;
+  }
+}
+/* line 735, ../sass/_mixins.scss */
+main .section.sakhiyaan .content-container .content {
+  float: left;
+  width: 100%;
+}
+/* line 131, ../sass/pages/_video.scss */
+main .section.sakhiyaan .content-container .recommend-album h5 {
+  color: #d3095b;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+/* line 138, ../sass/pages/_video.scss */
+main .section.sakhiyaan .content-container .recommend-album .slick-slider button {
+  width: 41px;
+  height: 41px;
+  top: -40px;
+}
+/* line 143, ../sass/pages/_video.scss */
+main .section.sakhiyaan .content-container .recommend-album .slick-slider button.slick-prev {
+  background-image: url(../images/prev-album.png);
+}
+/* line 147, ../sass/pages/_video.scss */
+main .section.sakhiyaan .content-container .recommend-album .slick-slider button.slick-next {
+  background-image: url(../images/next-album.png);
+}
+/* line 156, ../sass/pages/_video.scss */
+main .section.baal-geet {
+  background-image: url(../images/darbar-pattern.jpg);
+  padding: 21px 0 0 0;
+}
+/* line 162, ../sass/pages/_video.scss */
+main .darbar-sahib {
+  float: left;
+  width: 100%;
+  padding: calc(8rem + 21px) 0 8rem 0;
+  background-image: url(../images/darbar-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* line 171, ../sass/pages/_video.scss */
+main .darbar-sahib:before {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 39px;
+  top: 0;
+  background-image: url(../images/darbar-pattern.jpg);
+  background-position: left top;
+  background-repeat: repeat-x;
+  content: '';
+}
+/* line 183, ../sass/pages/_video.scss */
+main .darbar-sahib .content {
+  font-size: 25px;
+  font-family: "Roboto Condensed Light";
+  float: left;
+  width: 100%;
+  color: #fff;
+  margin-bottom: 20px;
+}
+/* line 190, ../sass/pages/_video.scss */
+main .darbar-sahib .content span {
+  float: left;
+  background-color: #00aeef;
+  color-interpolation-filters: #fff;
+  font-family: "Roboto Condensed Bold";
+  padding: 0 10px;
+}
+/* line 198, ../sass/pages/_video.scss */
+main .darbar-sahib .content ul {
+  float: left;
+  margin-top: 5px;
+}
+/* line 202, ../sass/pages/_video.scss */
+main .darbar-sahib .content ul li {
+  float: left;
+  margin-left: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+/* line 209, ../sass/pages/_video.scss */
+main .darbar-sahib .content p {
+  color: #fff;
+}
+/* line 211, ../sass/pages/_video.scss */
+main .darbar-sahib .content p.text {
+  font-size: 16px;
+  float: left;
+  width: 100%;
+  font-family: "Roboto Condensed Light";
+  line-height: 26px;
+  max-width: 500px;
+}
+/* line 221, ../sass/pages/_video.scss */
+main .darbar-sahib .content .banner-action {
+  float: left;
+  width: 100%;
+  margin-top: 25px;
+}
+/* line 226, ../sass/pages/_video.scss */
+main .darbar-sahib .content .banner-action a {
+  color: #fff;
+  font-family: "IFC RAILROAD Bold";
+  font-size: 24px;
+}
+/* line 231, ../sass/pages/_video.scss */
+main .darbar-sahib .content .banner-action a:first-child {
+  margin-right: 20px;
+}
+/* line 235, ../sass/pages/_video.scss */
+main .darbar-sahib .content .banner-action a:hover {
+  text-decoration: none;
+}
+/* line 243, ../sass/pages/_video.scss */
+main .darbar-image img {
+  border: solid 7px #fff;
+  border-radius: 6px;
+}
+
+/* line 5, ../sass/pages/_download.scss */
+main .section.category-listing .content-container {
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px;
+  background-color: #7436fd;
+  background-image: url(../images/category-pattern.png);
+  padding: 5rem 0;
+}
+/* line 503, ../sass/_mixins.scss */
+main .section.category-listing .content-container .view-all {
+  float: left;
+  width: 100%;
+  text-align: right;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 503, ../sass/_mixins.scss */
+  main .section.category-listing .content-container .view-all {
+    text-align: center;
+  }
+}
+/* line 511, ../sass/_mixins.scss */
+main .section.category-listing .content-container .view-all a {
+  font-family: "Funhouse";
+  font-size: 29px;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  background-color: black;
+  color: #fac005;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 511, ../sass/_mixins.scss */
+  main .section.category-listing .content-container .view-all a {
+    text-align: left;
+    font-size: 20px;
+  }
+}
+/* line 522, ../sass/_mixins.scss */
+main .section.category-listing .content-container .view-all a:before {
+  background-image: url(../images/view-all-left.png);
+  float: left;
+  width: 73px;
+  height: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+}
+@media sm {
+  /* line 522, ../sass/_mixins.scss */
+  main .section.category-listing .content-container .view-all a:before {
+    margin-right: 10px;
+  }
+}
+/* line 562, ../sass/_mixins.scss */
+main .section.category-listing .content-container .view-all a:after {
+  background-image: url(../images/view-all-right.png);
+  float: right;
+  margin-left: 20px;
+  width: 87px;
+  margin-top: 10px;
+  height: 20px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+}
+/* line 673, ../sass/_mixins.scss */
+main .section.category-listing .content-container .section-heading {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 37px;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 673, ../sass/_mixins.scss */
+  main .section.category-listing .content-container .section-heading {
+    margin-bottom: 0;
+  }
+}
+/* line 680, ../sass/_mixins.scss */
+main .section.category-listing .content-container .section-heading span {
+  display: inline-block;
+  border-radius: 0 0 60px 60px;
+  font-family: "IFC RAILROAD Bold";
+  color: #fff;
+  font-size: 50px;
+  padding: 12px 63px;
+  background-color: black;
+  color: #fac005;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 680, ../sass/_mixins.scss */
+  main .section.category-listing .content-container .section-heading span {
+    font-size: 32px;
+    border-radius: 0 0 40px 40px;
+    padding: 8px 40px;
+  }
+}
+/* line 735, ../sass/_mixins.scss */
+main .section.category-listing .content-container .content {
+  float: left;
+  width: 100%;
+}
+/* line 8, ../sass/pages/_download.scss */
+main .section.category-listing .content-container h5 {
+  color: #fff200;
+  font-size: 40px;
+  text-align: center;
+  font-family: "IFC RAILROAD Bold";
+}
+/* line 14, ../sass/pages/_download.scss */
+main .section.category-listing .content-container .card {
+  background-color: transparent;
+}
+/* line 19, ../sass/pages/_download.scss */
+main .section.category-listing .col {
+  text-align: center;
+  margin-bottom: 50px;
+}
+/* line 22, ../sass/pages/_download.scss */
+main .section.category-listing .col a {
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+  float: left;
+  width: 100%;
+}
+/* line 26, ../sass/pages/_download.scss */
+main .section.category-listing .col a span {
+  width: 180px;
+  height: 180px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 50%;
+  padding: 30px;
+  border: solid 3px #fff;
+}
+/* line 34, ../sass/pages/_download.scss */
+main .section.category-listing .col a span embed {
+  height: 100%;
+}
+/* line 38, ../sass/pages/_download.scss */
+main .section.category-listing .col a h4 {
+  font-size: 32px;
+  color: #fff;
+  margin-top: 15px;
+  font-family: "IFC RAILROAD Bold";
+}
+/* line 47, ../sass/pages/_download.scss */
+main .section.category-listing .col:hover a {
+  color: #00ffff;
+}
+/* line 49, ../sass/pages/_download.scss */
+main .section.category-listing .col:hover a span {
+  border-color: #00ffff;
+}
+/* line 52, ../sass/pages/_download.scss */
+main .section.category-listing .col:hover a h4 {
+  color: #00ffff;
+}
+
+/* line 5, ../sass/pages/_download-page.scss */
+main .section.download-listing .content-container {
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px;
+  background-color: #7436fd;
+  background-image: url(../images/category-pattern.png);
+  padding: 4rem 0 0 0;
+}
+/* line 503, ../sass/_mixins.scss */
+main .section.download-listing .content-container .view-all {
+  float: left;
+  width: 100%;
+  text-align: right;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 503, ../sass/_mixins.scss */
+  main .section.download-listing .content-container .view-all {
+    text-align: center;
+  }
+}
+/* line 511, ../sass/_mixins.scss */
+main .section.download-listing .content-container .view-all a {
+  font-family: "Funhouse";
+  font-size: 29px;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  background-color: black;
+  color: #fac005;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 511, ../sass/_mixins.scss */
+  main .section.download-listing .content-container .view-all a {
+    text-align: left;
+    font-size: 20px;
+  }
+}
+/* line 522, ../sass/_mixins.scss */
+main .section.download-listing .content-container .view-all a:before {
+  background-image: url(../images/view-all-left.png);
+  float: left;
+  width: 73px;
+  height: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+}
+@media sm {
+  /* line 522, ../sass/_mixins.scss */
+  main .section.download-listing .content-container .view-all a:before {
+    margin-right: 10px;
+  }
+}
+/* line 562, ../sass/_mixins.scss */
+main .section.download-listing .content-container .view-all a:after {
+  background-image: url(../images/view-all-right.png);
+  float: right;
+  margin-left: 20px;
+  width: 87px;
+  margin-top: 10px;
+  height: 20px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+}
+/* line 673, ../sass/_mixins.scss */
+main .section.download-listing .content-container .section-heading {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 37px;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 673, ../sass/_mixins.scss */
+  main .section.download-listing .content-container .section-heading {
+    margin-bottom: 0;
+  }
+}
+/* line 680, ../sass/_mixins.scss */
+main .section.download-listing .content-container .section-heading span {
+  display: inline-block;
+  border-radius: 0 0 60px 60px;
+  font-family: "IFC RAILROAD Bold";
+  color: #fff;
+  font-size: 50px;
+  padding: 12px 63px;
+  background-color: black;
+  color: #fac005;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 680, ../sass/_mixins.scss */
+  main .section.download-listing .content-container .section-heading span {
+    font-size: 32px;
+    border-radius: 0 0 40px 40px;
+    padding: 8px 40px;
+  }
+}
+/* line 735, ../sass/_mixins.scss */
+main .section.download-listing .content-container .content {
+  float: left;
+  width: 100%;
+}
+/* line 9, ../sass/pages/_download-page.scss */
+main .section.download-listing .content-container h5 {
+  color: #fff200;
+  font-size: 40px;
+  text-align: left;
+  font-family: "IFC RAILROAD Bold";
+  background-image: url(../../images/images/heading-seprator.png);
+  background-repeat: repeat-x;
+  background-position: left bottom;
+  padding-bottom: 20px;
+}
+/* line 18, ../sass/pages/_download-page.scss */
+main .section.download-listing .content-container h5 a {
+  float: right;
+  font-family: "IFC RAILROAD Bold";
+  color: #fff;
+  font-size: 30px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+/* line 27, ../sass/pages/_download-page.scss */
+main .section.download-listing .content-container .card {
+  background-color: transparent;
+}
+/* line 32, ../sass/pages/_download-page.scss */
+main .section.download-listing .col {
+  text-align: center;
+  margin-bottom: 50px;
+}
+/* line 35, ../sass/pages/_download-page.scss */
+main .section.download-listing .col .card {
+  border: 0;
+  background-color: transparent;
+  border-radius: 0;
+}
+/* line 39, ../sass/pages/_download-page.scss */
+main .section.download-listing .col .card img {
+  border-radius: 0;
+  border: solid 5px #fdd60f;
+}
+/* line 44, ../sass/pages/_download-page.scss */
+main .section.download-listing .col .card .card-body .card-title {
+  color: #fff;
+}
+/* line 49, ../sass/pages/_download-page.scss */
+main .section.download-listing .col a {
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+  float: left;
+  width: 100%;
+  color: #fff;
+}
+/* line 55, ../sass/pages/_download-page.scss */
+main .section.download-listing .col a h4 {
+  font-size: 32px;
+  color: #fff;
+  margin-top: 15px;
+  font-family: "IFC RAILROAD Bold";
+  color: #fff;
+}
+/* line 65, ../sass/pages/_download-page.scss */
+main .section.download-listing .col:hover a {
+  color: #00ffff;
+}
+/* line 67, ../sass/pages/_download-page.scss */
+main .section.download-listing .col:hover a span {
+  border-color: #00ffff;
+}
+/* line 70, ../sass/pages/_download-page.scss */
+main .section.download-listing .col:hover a h4 {
+  color: #00ffff;
+}
+
+/* line 4, ../sass/pages/_game.scss */
+main .section.games-listing .content-container {
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px;
+  background-color: #7436fd;
+  background-image: url(../images/category-pattern.png);
+  padding: 4rem 0 0 0;
+}
+/* line 503, ../sass/_mixins.scss */
+main .section.games-listing .content-container .view-all {
+  float: left;
+  width: 100%;
+  text-align: right;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 503, ../sass/_mixins.scss */
+  main .section.games-listing .content-container .view-all {
+    text-align: center;
+  }
+}
+/* line 511, ../sass/_mixins.scss */
+main .section.games-listing .content-container .view-all a {
+  font-family: "Funhouse";
+  font-size: 29px;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  background-color: black;
+  color: #fac005;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 511, ../sass/_mixins.scss */
+  main .section.games-listing .content-container .view-all a {
+    text-align: left;
+    font-size: 20px;
+  }
+}
+/* line 522, ../sass/_mixins.scss */
+main .section.games-listing .content-container .view-all a:before {
+  background-image: url(../images/view-all-left.png);
+  float: left;
+  width: 73px;
+  height: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+}
+@media sm {
+  /* line 522, ../sass/_mixins.scss */
+  main .section.games-listing .content-container .view-all a:before {
+    margin-right: 10px;
+  }
+}
+/* line 562, ../sass/_mixins.scss */
+main .section.games-listing .content-container .view-all a:after {
+  background-image: url(../images/view-all-right.png);
+  float: right;
+  margin-left: 20px;
+  width: 87px;
+  margin-top: 10px;
+  height: 20px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: '';
+}
+/* line 673, ../sass/_mixins.scss */
+main .section.games-listing .content-container .section-heading {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 37px;
+}
+@media only screen and (max-width: 767.98px) {
+  /* line 673, ../sass/_mixins.scss */
+  main .section.games-listing .content-container .section-heading {
+    margin-bottom: 0;
+  }
+}
+/* line 680, ../sass/_mixins.scss */
+main .section.games-listing .content-container .section-heading span {
+  display: inline-block;
+  border-radius: 0 0 60px 60px;
+  font-family: "IFC RAILROAD Bold";
+  color: #fff;
+  font-size: 50px;
+  padding: 12px 63px;
+  background-color: black;
+  color: #fac005;
+}
+@media only screen and (max-width: 991.98px) {
+  /* line 680, ../sass/_mixins.scss */
+  main .section.games-listing .content-container .section-heading span {
+    font-size: 32px;
+    border-radius: 0 0 40px 40px;
+    padding: 8px 40px;
+  }
+}
+/* line 735, ../sass/_mixins.scss */
+main .section.games-listing .content-container .content {
+  float: left;
+  width: 100%;
+}
+/* line 8, ../sass/pages/_game.scss */
+main .section.games-listing .content-container h5 {
+  color: #fff200;
+  font-size: 40px;
+  text-align: left;
+  font-family: "IFC RAILROAD Bold";
+  background-image: url(../../images/images/heading-seprator.png);
+  background-repeat: repeat-x;
+  background-position: left bottom;
+  padding-bottom: 20px;
+}
+/* line 18, ../sass/pages/_game.scss */
+main .section.games-listing .content-container h5 a {
+  float: right;
+  font-family: "IFC RAILROAD Bold";
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+}
+/* line 28, ../sass/pages/_game.scss */
+main .section.games-listing .content-container .card {
+  background-color: transparent;
+}
+/* line 34, ../sass/pages/_game.scss */
+main .section.games-listing .col {
+  text-align: center;
+  margin-bottom: 50px;
+}
+/* line 38, ../sass/pages/_game.scss */
+main .section.games-listing .col .card {
+  border: 0;
+  background-color: transparent;
+  border-radius: 0;
+}
+/* line 43, ../sass/pages/_game.scss */
+main .section.games-listing .col .card img {
+  border-radius: 15px;
+  border: solid 5px #fdd60f;
+}
+/* line 49, ../sass/pages/_game.scss */
+main .section.games-listing .col .card .card-body .card-title {
+  color: #fff;
+}
+/* line 55, ../sass/pages/_game.scss */
+main .section.games-listing .col a {
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+  float: left;
+  width: 100%;
+  color: #fff;
+}
+/* line 61, ../sass/pages/_game.scss */
+main .section.games-listing .col a h4 {
+  font-size: 32px;
+  color: #fff;
+  margin-top: 15px;
+  font-family: "IFC RAILROAD Bold";
+  color: #fff;
+}
+/* line 72, ../sass/pages/_game.scss */
+main .section.games-listing .col:hover a {
+  color: #00ffff;
+}
+/* line 77, ../sass/pages/_game.scss */
+main .section.games-listing .col:hover a h4 {
+  color: #00ffff;
+}
+
+/* line 1, ../sass/partials/_footer.scss */
+footer {
+  float: left;
+  width: 100%;
+  padding: 50px 0 23px 0;
+  background-color: #003663;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Roboto Condensed Light";
+}
+/* line 10, ../sass/partials/_footer.scss */
+footer:before {
+  background-image: url(../images/top-footer-border.png);
+  background-repeat: repeat-x;
+  background-position: left top;
+  content: '';
+  float: left;
+  width: 100%;
+  height: 15px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/* line 23, ../sass/partials/_footer.scss */
+footer:after {
+  background-image: url(../images/bottom-footer-border.png);
+  background-repeat: repeat-x;
+  background-position: left top;
+  content: '';
+  float: left;
+  width: 100%;
+  height: 15px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+/* line 37, ../sass/partials/_footer.scss */
+footer p:last-child {
+  margin-bottom: 0;
+}
+/* line 40, ../sass/partials/_footer.scss */
+footer p a {
+  display: inline-block;
+  background-color: #26577e;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  margin: 0 5px;
+  color: #fff;
+  line-height: 60px;
+  font-size: 26px;
+  transition: all .3s ease-in-out;
+}
+/* line 51, ../sass/partials/_footer.scss */
+footer p a:hover {
+  color: #2b3e83;
+  background: #fff;
+}
